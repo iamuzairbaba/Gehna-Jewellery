@@ -1,0 +1,12 @@
+.app__findus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 1150px) {
+    .app__findus {
+      flex-direction: column;
+    }
+}
